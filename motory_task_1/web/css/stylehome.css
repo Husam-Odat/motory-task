@@ -1,0 +1,396 @@
+
+        /* Variables */
+
+        :root {
+            --black: rgba(0, 0, 0, 1);
+            --brandblue: rgba(0, 131, 249, 1);
+            --brandmain: rgba(23, 29, 53, 1);
+            --east-bay: rgba(69, 86, 123, 1);
+            --neutralneutral-10: rgba(216, 220, 227, 1);
+            --neutralneutral-5: rgba(236, 237, 241, 1);
+
+            --font-size-s: 12px;
+            --font-size-m: 14px;
+            --font-size-l: 16px;
+            --font-size-xl: 18px;
+            --font-size-xxl: 21px;
+
+            --font-family-almarai: "Almarai";
+        }
+
+        /* Classes */
+
+        .x16-regular {
+            font-family: var(--font-family-almarai);
+            font-size: var(--font-size-l);
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .x14-regular {
+            font-family: var(--font-family-almarai);
+            font-size: var(--font-size-m);
+            letter-spacing: 0px;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .x21-bold {
+            font-family: var(--font-family-almarai);
+            font-size: var(--font-size-xxl);
+            letter-spacing: 0px;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+        .x14-bold {
+            font-family: var(--font-family-almarai);
+            font-size: var(--font-size-m);
+            letter-spacing: 0px;
+            font-weight: 700;
+            font-style: normal;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @import url("https://fonts.googleapis.com/css?family=Almarai:400,700");
+
+        .listing {
+            align-items: flex-start;
+            display: inline-flex;
+            flex-direction: column;
+            gap: 16px;
+            position: relative;
+        }
+
+        .hidden,
+        .hidden * {
+            pointer-events: none;
+            visibility: hidden;
+        }
+
+        .card {
+            align-items: flex-start;
+            border: 1px solid;
+            border-color: var(--neutralneutral-5);
+            border-radius: 20px;
+            display: flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 16px;
+            padding: 16px;
+            position: relative;
+            width: 100%;
+        }
+
+        .button-large-icon {
+            align-items: center;
+            align-self: stretch;
+            border: 1px solid;
+            border-color: var(--brandblue);
+            border-radius: 8px;
+            display: flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px 16px;
+            position: relative;
+            width: 100%;
+        }
+
+        .text-icon {
+            align-items: center;
+            display: inline-flex;
+            flex: 0 0 auto;
+            gap: 8px;
+            justify-content: flex-start;
+            position: relative;
+        }
+
+        .text-4 {
+            color: var(--brandblue);
+            direction: ltr;
+            font-weight: 700;
+            line-height: 21px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .price {
+            align-items: center;
+            align-self: stretch;
+            display: flex;
+            justify-content: flex-start;
+            width: 100%;
+        }
+
+        .listing .price-2 {
+            flex: 0 0 auto;
+            position: relative;
+        }
+
+        .cash-price {
+            align-items: center;
+            align-self: stretch;
+            display: flex;
+            flex: 1;
+            flex-grow: 1;
+            gap: 10px;
+            justify-content: flex-start;
+            position: relative;
+        }
+
+        .price-1 {
+            align-items: flex-start;
+            display: inline-flex;
+            flex-direction: column;
+        }
+
+        .number {
+            align-items: center;
+            display: inline-flex;
+            flex: 0 0 auto;
+            gap: 4px;
+            position: relative;
+        }
+
+        .valign-text-middle {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .address {
+            color: var(--brandmain);
+            direction: ltr;
+            font-weight: 400;
+            line-height: 24px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-23 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .rectangle-1 {
+            align-self: stretch;
+            background-color: var(--neutralneutral-10);
+            position: relative;
+            width: 1px;
+        }
+
+        .cash-price-1 {
+            align-items: center;
+            display: flex;
+            flex: 1;
+            flex-grow: 1;
+            gap: 10px;
+            justify-content: flex-start;
+            position: relative;
+        }
+
+        .rectangle-2 {
+            align-self: stretch;
+            background-color: var(--brandblue);
+            position: relative;
+            width: 2px;
+        }
+
+        .listing .x-5 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-25 {
+            color: var(--brandmain);
+            font-weight: 700;
+            line-height: 31.5px;
+            margin-top: -1px;
+            position: relative;
+            text-align: left;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-3 {
+            color: var(--brandmain);
+            direction: ltr;
+            font-weight: 700;
+            line-height: 21px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text {
+            align-items: flex-start;
+            align-self: stretch;
+            display: flex;
+            flex: 0 0 auto;
+            flex-direction: column;
+            gap: 8px;
+            position: relative;
+            width: 100%;
+        }
+
+        .text-1 {
+            align-self: stretch;
+            color: var(--brandmain);
+            direction: ltr;
+            font-weight: 400;
+            line-height: 21px;
+            margin-top: -1px;
+            position: relative;
+        }
+
+        .text-2 {
+            align-self: stretch;
+            color: var(--brandmain);
+            direction: ltr;
+            font-weight: 700;
+            line-height: 27px;
+            position: relative;
+        }
+
+        .icon {
+            height: 64px;
+            position: relative;
+            width: 64px;
+        }
+
+        .overlap-group {
+            border-radius: 12px;
+            height: 64px;
+            position: relative;
+        }
+
+        .icon-1 {
+            height: 28px;
+            left: 18px;
+            position: absolute;
+            top: 18px;
+            width: 28px;
+        }
+
+        .rectangle {
+            background: linear-gradient(180deg, rgb(0, 131, 249) 0%, rgba(0, 131, 249, 0.2) 100%);
+            border-radius: 12px;
+            height: 64px;
+            left: 0;
+            opacity: 0.1;
+            position: absolute;
+            top: 0;
+            transform: rotate(180deg);
+            width: 64px;
+        }
+
+        .number-1 {
+            color: var(--brandmain);
+            font-weight: 700;
+            line-height: 31.5px;
+            margin-top: -1px;
+            position: relative;
+            text-align: left;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-3-1 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-9 {
+            color: var(--brandmain);
+            font-weight: 700;
+            line-height: 31.5px;
+            margin-top: -1px;
+            position: relative;
+            text-align: left;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-7 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-14 {
+            color: var(--brandmain);
+            font-weight: 700;
+            line-height: 31.5px;
+            margin-top: -1px;
+            position: relative;
+            text-align: left;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-12 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-17 {
+            direction: ltr;
+            letter-spacing: 0;
+            line-height: 18px;
+            margin-top: -1px;
+            position: relative;
+            white-space: nowrap;
+            width: fit-content;
+        }
+
+        .text-19 {
+            color: var(--brandmain);
+            font-weight: 700;
+            line-height: 31.5px;
+            margin-top: -1px;
+            position: relative;
+            text-align: left;
+            white-space: nowrap;
+            width: fit-content;
+        }
