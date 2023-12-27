@@ -16,7 +16,7 @@ class m231208_231655_create_service_table extends Migration
             'id' => $this->primaryKey(),
             'category_id' => $this->integer()->notNull(),
            
-            'icon' => $this->string(),
+            'iconName' => $this->string(),
             'title' => $this->string(),
             'title_ar' => $this->string(),
             'price' => $this->decimal(10, 2),
